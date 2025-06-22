@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "RP2350A Devkit")
-		(date "2025-06-18")
-		(rev "v1.0a")
+		(date "2025-06-22")
+		(rev "v1.0b")
 		(comment 1 "Licensed under CERN-OHL-P v2 or later")
 	)
 	(lib_symbols
@@ -5335,16 +5335,6 @@
 		)
 		(uuid e09d5763-0b24-4954-81bf-e5050a59bd64)
 	)
-	(text "changed ldo, added schottky\nadded pull-up to run sw\nchanged footprint to 0603 0804 instead of 0402 0603\nadded vbus to gpio"
-		(exclude_from_sim no)
-		(at 349.25 89.662 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "009e0303-4211-44f5-827e-f11ec8394b14")
-	)
 	(text "10u selected over 1u\nas it is used elsewhere"
 		(exclude_from_sim no)
 		(at 268.224 54.102 0)
@@ -5568,12 +5558,6 @@
 		(uuid "4eba3f79-0c8d-4187-bd29-584f47f9ab28")
 	)
 	(junction
-		(at 66.04 80.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4feff2a2-c14e-49e5-b8e8-3920caa3bd26")
-	)
-	(junction
 		(at 40.64 189.23)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5656,12 +5640,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "76dca9e5-e5f8-4e68-a18d-88d222bef52b")
-	)
-	(junction
-		(at 77.47 90.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "78c025db-6095-4220-b87f-2fc0b88a07d7")
 	)
 	(junction
 		(at 74.93 179.07)
@@ -6173,16 +6151,6 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 90.17) (xy 77.47 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "225360e2-3f36-43d7-a7e2-bb8d8c600ca4")
-	)
-	(wire
-		(pts
 			(xy 142.24 176.53) (xy 144.78 176.53)
 		)
 		(stroke
@@ -6623,7 +6591,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 81.28) (xy 66.04 80.01)
+			(xy 74.93 81.28) (xy 74.93 80.01)
 		)
 		(stroke
 			(width 0)
@@ -7453,16 +7421,6 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 90.17) (xy 77.47 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8dcf86da-005f-424f-a11d-bede232e8f70")
-	)
-	(wire
-		(pts
 			(xy 109.22 187.96) (xy 109.22 189.23)
 		)
 		(stroke
@@ -7490,16 +7448,6 @@
 			(type default)
 		)
 		(uuid "8f5a40d7-ae12-4c3d-bf81-f7ca2c649e60")
-	)
-	(wire
-		(pts
-			(xy 166.37 151.13) (xy 166.37 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9012c53b-27f3-43a5-bf84-cd65560b2753")
 	)
 	(wire
 		(pts
@@ -7813,7 +7761,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 80.01) (xy 66.04 80.01)
+			(xy 60.96 80.01) (xy 74.93 80.01)
 		)
 		(stroke
 			(width 0)
@@ -7880,16 +7828,6 @@
 			(type default)
 		)
 		(uuid "a9f42b1c-7b2a-4554-952b-3e5ffb1dddf0")
-	)
-	(wire
-		(pts
-			(xy 77.47 90.17) (xy 77.47 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aad7b780-0cd5-42c7-8139-6285bc8fba4d")
 	)
 	(wire
 		(pts
@@ -8263,16 +8201,6 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 80.01) (xy 77.47 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cd143b8f-f186-41a4-ae8a-e002a1eb6149")
-	)
-	(wire
-		(pts
 			(xy 40.64 179.07) (xy 29.21 179.07)
 		)
 		(stroke
@@ -8423,7 +8351,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 88.9) (xy 66.04 90.17)
+			(xy 74.93 88.9) (xy 74.93 90.17)
 		)
 		(stroke
 			(width 0)
@@ -8570,16 +8498,6 @@
 			(type default)
 		)
 		(uuid "e580ab09-8fb5-476d-af1b-4833544cf2e8")
-	)
-	(wire
-		(pts
-			(xy 77.47 81.28) (xy 77.47 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e7ca67e3-cc76-4b88-9da3-d38afb583ad7")
 	)
 	(wire
 		(pts
@@ -9470,6 +9388,16 @@
 			(justify right bottom)
 		)
 		(uuid "a66d09bb-9259-49b7-8f7a-b76edba28934")
+	)
+	(label "5VIN"
+		(at 166.37 151.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a6ec0b5c-45c4-497a-8668-c33d1e6bb8b3")
 	)
 	(label "IOA1"
 		(at 179.07 120.65 0)
@@ -12492,7 +12420,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 77.47 91.44 0)
+		(at 74.93 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12501,7 +12429,7 @@
 		(fields_autoplaced yes)
 		(uuid "6eb85d6a-9507-4d7d-8bc4-63bcd97ec65b")
 		(property "Reference" "#PWR018"
-			(at 77.47 97.79 0)
+			(at 74.93 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12510,7 +12438,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 77.47 96.52 0)
+			(at 74.93 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12518,7 +12446,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 77.47 91.44 0)
+			(at 74.93 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12527,7 +12455,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 77.47 91.44 0)
+			(at 74.93 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12536,7 +12464,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 77.47 91.44 0)
+			(at 74.93 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12617,85 +12545,6 @@
 			(project ""
 				(path "/299b4106-82c3-4338-9a17-162ca1836b82"
 					(reference "#FLG03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 77.47 85.09 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "795e8a1a-7cb6-45da-af96-0b58696b29ce")
-		(property "Reference" "C9"
-			(at 81.28 83.8199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10u"
-			(at 81.28 86.3599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 78.4352 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 77.47 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 77.47 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MNF PART #" ""
-			(at 77.47 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "9758d8ae-8757-480b-a3f6-80fc31ebb76c")
-		)
-		(pin "1"
-			(uuid "102bf37e-6b5c-4f5d-bbb8-8c31382055c1")
-		)
-		(instances
-			(project "rp2350a_devkit"
-				(path "/299b4106-82c3-4338-9a17-162ca1836b82"
-					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -16399,7 +16248,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 66.04 85.09 0)
+		(at 74.93 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16408,7 +16257,7 @@
 		(fields_autoplaced yes)
 		(uuid "e45731e7-f4cc-4e76-8b80-30c33c8f1ac7")
 		(property "Reference" "C8"
-			(at 69.85 83.8199 0)
+			(at 78.74 83.8199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16417,7 +16266,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 69.85 86.3599 0)
+			(at 78.74 86.3599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16426,7 +16275,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 67.0052 88.9 0)
+			(at 75.8952 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16435,7 +16284,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 66.04 85.09 0)
+			(at 74.93 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16444,7 +16293,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 66.04 85.09 0)
+			(at 74.93 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16453,7 +16302,7 @@
 			)
 		)
 		(property "MNF PART #" ""
-			(at 66.04 85.09 0)
+			(at 74.93 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17116,72 +16965,6 @@
 			(project "rp2350a_devkit"
 				(path "/299b4106-82c3-4338-9a17-162ca1836b82"
 					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VBUS")
-		(at 166.37 148.59 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fe4620fa-b782-40cc-9e88-6c62cf166f21")
-		(property "Reference" "#PWR031"
-			(at 166.37 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VBUS"
-			(at 166.37 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 166.37 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 166.37 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 166.37 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "31b633ac-0ec7-41a1-ac64-230fe51177e6")
-		)
-		(instances
-			(project "rp2350a_devkit"
-				(path "/299b4106-82c3-4338-9a17-162ca1836b82"
-					(reference "#PWR031")
 					(unit 1)
 				)
 			)

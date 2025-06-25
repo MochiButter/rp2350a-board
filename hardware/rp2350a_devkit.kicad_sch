@@ -5430,7 +5430,7 @@
 		)
 		(uuid "c3995e46-7f60-4c38-908d-379318b9dab2")
 	)
-	(text "USB impedance spec. 27 ohm\nBased on 0.8mm traces with \nonly GND below"
+	(text "USB impedance spec. 27 ohm +\ninternal resistance of mcu pins\n(design guidelines)"
 		(exclude_from_sim no)
 		(at 120.65 133.35 0)
 		(effects
@@ -13063,7 +13063,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_B3U-1000P"
+		(property "Footprint" "footprints:TS-1088-AR02016"
 			(at 99.06 95.25 0)
 			(effects
 				(font
@@ -13082,6 +13082,15 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 99.06 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C720477"
 			(at 99.06 100.33 0)
 			(effects
 				(font
@@ -14541,7 +14550,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_B3U-1000P"
+		(property "Footprint" "footprints:TS-1088-AR02016"
 			(at 17.78 104.14 0)
 			(effects
 				(font
@@ -14561,6 +14570,15 @@
 		)
 		(property "Description" "Push button switch, generic, two pins"
 			(at 22.86 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C720477"
+			(at 22.86 104.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15598,7 +15616,7 @@
 				(hide yes)
 			)
 		)
-		(property "PCSC PN" "C7519"
+		(property "LCSC PN" "C7519"
 			(at 245.11 128.27 0)
 			(effects
 				(font
